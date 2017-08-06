@@ -6,6 +6,8 @@
 
 3. The GetCredentialsForIdentity API returns a Credentials Object which contains the required AccessKeyId, SecretKey and SessionToken which are then passed to AmazonDynamoDBClient custructor to initialise DynamoDB access.
 
+4. The same Credentials can be used to access other AWS services depending upon IAM roles set to the cognito identity pool.
+
 
 # Dependencies
 
